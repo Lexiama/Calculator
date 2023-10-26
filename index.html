@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+
+    <!--BOOTSTRAP SHEET-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+        <!-- MAIN STYLESHEET -->
+        <link rel="stylesheet" href="css/styles">
+    </head>
+ 
+ 
+    <body>
+    
+  <main>
+    <div class="d-flex justify-content-center align-items-center" style="height: 100vh;">
+        <div class="card" style="width: 50%;">
+            <div class="card-body">
+                <div class="col text-center">
+                    <h2 class="position-relative d-inline-block">Exercise 2</h2>
+                </div>
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label" for="number1Field" >Number 1:</label>
+                        <input type="text" class="form-control" id="number1Field">
+                        </div>
+
+                    <div class="mb-3">
+                        <label class="form-label" for="number2Field">Number 2:</label>
+                        <input type="text" class="form-control" id="number2Field">
+                    </div>
+                    
+                    <fieldset class="mb-3">
+                        <div class="container">
+                            <div class = "row">
+                            <div class="col">
+                                <input class="btn btn-primary" type="button" id="addBtn" value= " Add " />
+                                <input class="btn btn-primary" type="button" id="subtractBtn" value=" Subtract " />
+                                <input class="btn btn-primary" type="button" id="multiplyBtn" value=" Multiply " />
+                                <input class="btn btn-primary" type="button" id="divideBtn" value=" Divide " />
+                            </fieldset>
+                           
+                            <div class="mb-3">
+                                <label class="form-label"for="exampleInputRePassword">Answer:</label>
+                                <input type="text" class="form-control" id="answerField" readonly>
+                            </div>
+                         </form>
+                     </div>
+                 </div>
+             </div>
+    
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
+
